@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "DeliveryMangment - Windows Authentication",
+      "request": "launch",
+      "mainClass": "DeliveryMangment.src.Main",
+      "vmArgs": "-Djava.library.path=${workspaceFolder}\\auth"
+    }
+  ]
+}
